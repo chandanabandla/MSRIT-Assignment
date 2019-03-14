@@ -15,7 +15,7 @@ spec:
       - name: couchbase-master  
         image: chandana/couchbase:k8s  
         env:  
-          - name: TYPE  
+          - name: TYPE
             value: MASTER  
         ports:  
         - containerPort: 8091
