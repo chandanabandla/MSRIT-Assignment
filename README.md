@@ -105,4 +105,4 @@ Creates the following resources:
    $ kubectl get services
 
 ### Result:
-We can see the omcat application up and running on the browser over 8080 port
+We can see the Tomcat application up and running on the browser over 8080 port
