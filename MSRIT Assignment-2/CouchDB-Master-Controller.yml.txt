@@ -1,0 +1,21 @@
+apiVersion: v1  
+kind: ReplicationController  
+metadata:  
+  name: couchbase-master-rc  
+spec:  
+  replicas: 1  
+  selector:  
+    app: couchbase-master-pod  
+  template:  
+    metadata:  
+      labels:  
+        app: couchbase-master-pod  
+    spec:  
+      containers:  
+      - name: couchbase-master  
+        image: chandana/couchbase:k8s  
+        env:  
+          - name: TYPE  
+            value: MASTER  
+        ports:  
+        - containerPort: 8091
