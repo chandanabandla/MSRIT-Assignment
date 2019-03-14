@@ -36,7 +36,7 @@ module "eks_workers" {
   stage                              = "${var.stage}"
   name                               = "${var.name}"
   attributes                         = "${var.attributes}"
-  tags                               = "${var.tags}"
+  tags                               = "${var.tags}" 
   image_id                           = "${var.image_id}"
   eks_worker_ami_name_filter         = "${var.eks_worker_ami_name_filter}"
   instance_type                      = "${var.instance_type}"
