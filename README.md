@@ -103,3 +103,6 @@ Creates the following resources:
 - To verify that the Tomcat service is up, list the services you created in the cluster with the kubectl get services command:
 
    $ kubectl get services
+
+### Result:
+We can see the omcat application up and running on the browser over 8080 port
