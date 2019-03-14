@@ -13,7 +13,7 @@ spec:
     spec:  
       containers:  
       - name: couchbase-master  
-        image: chandana/couchbase:k8s  
+        image: chandanabandla/couchbase:k8s  
         env:  
           - name: TYPE
             value: MASTER  
